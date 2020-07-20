@@ -46,7 +46,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # dataset
-dataset = pd.read_csv ('Social_Network_Ads.csv')
+dataset = pd.read_csv ('car churn.csv')
 
 # Dependent and Independent
 X = dataset.iloc[:, [2,3]].values
@@ -77,16 +77,4 @@ print (accuracy_score(y_test, pred))
  [ 7 21]] = 1 = 21 pred are correct and 7 are incorrect (who bought car)
 
 0.8625
-
-
-
-
-
-
-
-
-
-
-
-
 
